@@ -602,4 +602,12 @@ aside nav {
   padding-bottom: 10px;
   width: 100%; }
 
+.pagination-holder .page-list > li {
+  display: inline-block;
+  margin-right: 4px;
+  border: 1px solid #d4d4d4;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #999; }
+
 /*# sourceMappingURL=style.css.map */
