@@ -1,0 +1,128 @@
+$brand-color: #00ADEF;
+$icon-color: #515254;
+$yellow-color: #F8B912;
+$red-color: #E84D3B;
+$green-color: #0ACC16;
+
+@import 'font';
+
+body {
+	font-family: 'openSans', arial, sans-serif;
+	font-family: 'Bentham-Regular';
+	font-family: 'Gilda_Display';
+	font-family: 'Arapey';
+
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #333;
+	letter-spacing: 0.4px;
+	overflow-x: hidden !important;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	text-size-adjust:100%;
+	font-weight: normal;
+	position: relative;
+	background-color: #929292;
+	height: 100%;
+
+		transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+
+  transition-duration: .1s;
+  -moz-transition-duration: .1s;
+  -webkit-transition-duration: .1s;
+  -o-transition-duration: .1s;
+  position: relative;
+  z-index: 10;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+
+.container {
+	width: 1020px;
+	background: #FFF;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+@import 'components';
+@import 'button';
+@import 'responsive';
+@import 'form';
+
+/*  Logo */
+
+.section {
+	min-height: 600px;
+}
+
+.category-holder {
+    background: #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #e0e0e0;
+}
+
+header#header {
+	margin-bottom: 20px;
+	display: block;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+header nav {
+	float: right;
+	font-size: 24px;
+	margin-top: 10px;
+	ul > li {
+		display: inline-block;
+    margin-right: 2px;
+    padding: 5px;
+	}
+}
+.logo-holder {
+	background: #FFF;
+  float: left;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 5px;
+
+	a {
+		color: #333;
+		line-height: 0;
+    font-size: 28px;
+    margin: 0;
+	}
+} 
+
+.category {
+	margin-bottom: 20px;
+	min-height: 400px;
+}
+
+
+footer {
+    border-top: 1px solid #b7b7b7;
+    width: 100%;
+    padding: 5px;
+}
+.footer-nav {
+	ul > li {
+		display: inline-block;
+		margin-right: 4px;
+		font-size: 20px;
+		color: #6b6b6b;
+	}
+} 
+
+.signup-form {
+}
+
+@import 'vehicles';

@@ -1,0 +1,254 @@
+/* Margin & Padding */
+
+img {
+	max-width: 100%;
+}
+.mr-5 {
+	margin-right: 5px !important;
+}
+
+.mr-10 {
+	margin-right: 10px !important;
+}
+
+.ml-5 {
+	margin-left: 5px !important;
+}
+
+.ml-10 {
+	margin-left: 10px !important;
+}
+
+.mt-10 {
+	margin-top: 10px !important;
+}
+
+.mt-15 {
+	margin-top: 15px !important;
+}
+
+.mt-20 {
+	margin-top: 20px !important;
+}
+
+.mt-30 {
+	margin-top: 30px !important;
+}
+
+
+.mb-10 {
+	margin-bottom: 10px !important;
+}
+
+.mb-15 {
+	margin-bottom: 15px !important;
+}
+
+.mb-20 {
+	margin-bottom: 20px !important;
+}
+
+.mb-30 {
+	margin-bottom: 30px !important;
+}
+
+.mtb-10 {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.mtb-20 {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+
+.mtb-30 {
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+}
+
+/*  Font Style */
+
+.bold {
+	font-weight: bold !important;
+}
+
+.light {
+	font-weight: lighter !important;
+}
+
+.italic {
+	font-style: italic !important;
+}
+
+/* List Style */
+.block-list > li {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+.inline-list > li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* Div Style */
+
+.sector {
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+
+.block {
+	display: block !important;
+}
+/*  Typography */
+a {
+	color: #333;
+}
+a:focus,a:active, a:hover {
+	color: #000;
+	text-decoration: none;
+	outline: 0;
+	border: 0;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.f-16 {
+	font-size: 16px !important;
+}
+.f-18 {
+	font-size: 18px !important;
+}
+.f-20 {
+	font-size: 20px !important;
+}
+
+ul,li,ol {
+	list-style: none;
+}
+.brand-color {
+	color: $brand-color
+}
+
+.cursor {
+	cursor: pointer;
+}
+/* Bootstrap Style Modify */
+
+.form-control {
+	border-radius: 2px;
+	box-shadow: none;
+}
+.form-control:focus,
+.form-control:active {
+	box-shadow: none;
+	outline: 0;
+	border-color: #888;
+}
+select.form-control {
+
+}
+
+.modal-header.this {
+	background-color: #EFF3F4;
+	color: #80939A;
+	font-size: 16px;
+}
+
+
+
+/*  Checkbox And Radio Button */
+
+
+.radio-block > li label {
+	font-size: 16px;
+}
+input[type="radio"],input[type="checkbox"] {
+    display: none !important;
+    opacity: 0;
+}
+.checkbox-div {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 1px solid #BBB;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+.radio-div {
+    font-size: 13px;
+    border-radius: 40px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 1px solid #00adef;
+    text-align: center;
+    line-height: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+.checkbox-div span {
+    font-size: 11px;
+    opacity: 0;
+    color: #666;
+    vertical-align: middle;
+
+}
+.radio-div span {
+    font-size: 7px;
+    opacity: 0;
+    color: #00adef;
+}
+
+input:checked+label span {
+  opacity: 1;
+}
+input:checked .radio-div span {
+    font-size: 5px !important;
+}
+input[type="radio"]:checked+label span {
+  font-size: 7px !important;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+	outline: 0;
+}
+
+
+.table-responsive {
+    overflow-x: auto;
+}
+/* Scroll Style */
+
+
+
+/*  Btn  */
+
+.btn {
+	font-size: 20px;
+}

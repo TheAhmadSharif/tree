@@ -1,0 +1,25 @@
+.echo {
+	font-size: 60px;
+	font-family: 'Bentham-Regular';
+	font-family: 'Gilda_Display';
+	font-family: 'Arapey';
+	text-align: center;
+	padding: 20px;
+	border: 1px solid #FFF;
+	letter-spacing: 10px;
+	z-index: 12;
+	transition: all 1s ease-in-out;
+	border-bottom: 1px solid #333;
+
+	position: relative;
+	left: 30%;
+}
+
+.echo:hover {
+	border: 1px solid #333;
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+	letter-spacing: 6px;
+	background: #333;
+	color: #FFF;
+}
