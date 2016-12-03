@@ -595,12 +595,17 @@ aside nav {
     margin-right: 4px; }
 
 .heading {
+  font-family: monospace;
   display: block;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 18px;
   border-bottom: 1px solid #d0d0d0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   width: 100%; }
+
+.heading, .heading a {
+  display: inline-block;
+  color: #696969; }
 
 .pagination-holder .page-list > li {
   display: inline-block;
