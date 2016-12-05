@@ -622,4 +622,19 @@ aside nav {
   margin-top: 0;
   padding: 0; }
 
+.login-list > li {
+  display: inline-block; }
+  .login-list > li a {
+    font-size: 16px; }
+  .login-list > li img {
+    width: 160px; }
+
+.or {
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #333;
+  margin-bottom: 30px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -128,3 +128,24 @@ footer {
 
 @import 'vehicles';
 @import 'item';
+
+.login-list > li {
+	display: inline-block;
+
+	a {
+		font-size: 16px;
+	}
+
+	img {
+		width: 160px;
+	}
+}
+
+.or {
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	color: #333;
+	margin-bottom: 30px;
+}
