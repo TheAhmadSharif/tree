@@ -615,4 +615,11 @@ aside nav {
   font-size: 16px;
   color: #999; }
 
+.item-desc {
+  margin-top: 20px; }
+
+.item-description {
+  margin-top: 0;
+  padding: 0; }
+
 /*# sourceMappingURL=style.css.map */
