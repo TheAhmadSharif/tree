@@ -65,9 +65,9 @@
                 <div class="form-holder col-sm-6 col-xs-12">
                   <form action="#">
                     <div class="form-group">
-                    <select id="">
+                    <select id="" class="form-control dropdown">
+                      <option value="0"> -- Select Category -- </option>
                       <option value="Vehicles">Vehicles</option>
-                      <option value="Bikes">Bikes</option>
                       <option value="Flats">Flats</option>
                       <option value="Lands">Lands</option>
                     </select>
@@ -75,27 +75,43 @@
 
 
                   <div class="form-group">
-                    <select id="">
-                      <option value="Vehicles">Vehicles</option>
+                    <select id="" class="form-control dropdown">
+                      <option value="0">  -- Select Vehicle Type -- </option>
+                      <option value="Cars">Cars</option>
                       <option value="Bikes">Bikes</option>
-                      <option value="Flats">Flats</option>
-                      <option value="Lands">Lands</option>
                     </select>
                   </div> <!-- End Form Group -->
 
 
                   <div class="form-group">
-                    <select id="">
-                      <option value="Vehicles">Vehicles</option>
-                      <option value="Bikes">Bikes</option>
-                      <option value="Flats">Flats</option>
-                      <option value="Lands">Lands</option>
+                    <select id="" class="form-control dropdown">
+                      <option value="0">  -- Select Brand -- </option>
+                      <option value="Bikes"> Toyota </option>
+                      <option value="Flats"> Suzuki </option>
+                      <option value="Lands"> Hundai </option>
                     </select>
                   </div> <!-- End Form Group -->
 
 
+
+
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Item Name Please ">
+                    <input type="text" class="form-control" placeholder="Model Name ">
+                  </div> <!-- End Form Group -->
+
+
+                  <div class="form-group">
+                    <input type="number" min="1940" max="2016" class="form-control" placeholder="Model Year ">
+                  </div> <!-- End Form Group -->
+
+
+                  <div class="form-group">
+                    <input type="number" min="1000" max="3500" class="form-control" placeholder="Engine Capacity (CC) ">
+                  </div> <!-- End Form Group -->
+
+
+                  <div class="form-group">
+                      <textarea cols="30" rows="10" class="form-control textarea" placeholder="Description ... " ></textarea>
                   </div> <!-- End Form Group -->
 
 

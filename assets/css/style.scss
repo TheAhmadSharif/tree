@@ -3,6 +3,7 @@ $icon-color: #515254;
 $yellow-color: #F8B912;
 $red-color: #E84D3B;
 $green-color: #0ACC16;
+$border-color: #E6E6E6;
 
 @import 'font';
 
@@ -76,7 +77,7 @@ header#header {
 	display: block;
 	width: 100%;
 	float: left;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid $border-color;
 }
 header nav {
 	float: right;
@@ -149,4 +150,34 @@ footer {
 	color: #333;
 	margin-bottom: 30px;
 }
+
 @import 'admin';
+
+
+.form-control {
+	font-size: 18px;
+	line-height: 1em;
+	letter-spacing: 1px;
+}
+.form-control.dropdown {
+		min-width: 120px;
+	  padding-right: 20px;
+	  position: relative;
+	  background-color: #FFF;
+	  z-index: 10;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+	  background: url(../images/select-arrow.png) no-repeat 98% 10px;
+	  background-color: #FFF;
+}
+.form-control.textarea {
+		height: 100px;
+}
+
+.form-holder.admin {
+	display: block;
+	margin: auto;
+	min-width: 400px;
+}
+
